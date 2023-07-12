@@ -1,32 +1,117 @@
-:root{font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;}
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
-p {background-color: yellow;}
-h2 {text-transform: uppercase;}
-h4 { text-transform: lowercase;}
-.center {text-align: center;color: red;}
+p {
+  background-color: yellow;
+}
+h2 {
+  text-transform: uppercase;
+}
+h4 {
+  text-transform: lowercase;
+}
+.center {
+  text-align: center;
+  color: red;
+}
 
-p.center {color: blue;font-size: 1.3em;}
+p.center {
+  color: blue;
+  font-size: 1.3em;
+}
 
-#chapter {font-weight: 900;text-transform: uppercase;}
+#chapter {
+  font-weight: 900;
+  text-transform: uppercase;
+}
 
-h2, #chapter {text-transform: uppercase;}
+h2,
+#chapter {
+  text-transform: uppercase;
+}
 
-h1,h2,.center{text-align: center;}
+h1,
+h2,
+.center {
+  text-align: center;
+}
 
 /* Styles for Page 3 */
 .days {
-    list-style-position: inside;
+  list-style-position: inside;
 }
 
-.days li {text-transform: uppercase; color: blueviolet; font-size: 1.4em;}
+.days li {
+  text-transform: uppercase;
+  color: blueviolet;
+  font-size: 1.4em;
+}
 
-.flavor {list-style-type: circle; font-size: 1.2em; text-transform: lowercase;}
+.flavor {
+  list-style-type: circle;
+  font-size: 1.2em;
+  text-transform: lowercase;
+}
 
 /* style nav */
-.nav-h, .nav-h {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: gray;}
+.nav-h,
+.nav-v {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  width: fit-content;
+  border: 5px solid red;
+ 
+}
 
-li a {display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; background-color: grey;}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: grey;
+}
 
-.nav-h li {float: left;}
+.nav-h li {
+  float: left;
+}
 
-.nav-v li {width: 200px;}
+.nav-v li {
+  width: 200px;
+}
+
+.active {
+  background-color: #04aa60;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+/* Styles for page 5 */
+
+#handling-div {
+  background-color: green;
+}
+
+#handling-h1 {
+  background-color: lightgrey;
+}
+
+#handling-p {
+  background-color: darkred;
+  display: inline;
+}
+
+#handling-a {
+  background-color: gold;
+  display: inline;
+}
+
+.position-example {background-color: green; height: 150;}
+.position-a {position: absolute; display: inline; background-color: orange;}
+.position-r {position: relative; display: inline; background-color: white; color: black;}
