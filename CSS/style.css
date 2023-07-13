@@ -112,6 +112,8 @@ li a:hover {
   display: inline;
 }
 
-.position-example {background-color: green; height: 150;}
-.position-a {position: absolute; display: inline; background-color: orange;}
+.position-example {position: relative; background-color: green; height: 150;}
+.position-a {position: absolute; display: inline; background-color: orange; top: 200px;}
 .position-r {position: relative; display: inline; background-color: white; color: black;}
+.span-p{font-size: 1.5em;}
+.span-p span {font-weight: bold; color: blue;}
