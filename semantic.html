@@ -6,17 +6,17 @@
     <title>Semantic HTML</title>
     <link rel="stylesheet" href="/CSS/style.css" type="text/css"/>
   </head>
-  <body>
+  <body class="wrapper-sematic">
     <!-- Header Section of page -->
-    <header style="border: 3px solid blue; width: fit-content; position: absolute; top: auto; right: 50%;">
+    <header class="semantic-head" style="border: 3px solid blue; width: fit-content; position: absolute; top: auto; right: 50%;">
       <h1>Company Name</h1>
     </header>
 
     <!-- Nav section of page -->
-    <nav>
+    <nav class="semantic-nav">
       <!-- Will add later -->
     </nav>
-
+ <aside class="nav-semantic-left">
     <!-- Left side section -->
     <ul class="nav-v" style="list-style-type: none;">
       <li><a class="active" href="index.html"> Home</a></li>
@@ -28,14 +28,14 @@
       <li><a href="page6.html">Page 6</a></li>
       <li><a href="page7.html">Page 7</a></li>
     </ul>
-    <aside>
+   </aside>
       <!-- Vertical nav -->
     </aside>
 
     <!-- Main section -->,
-    <main>
+    <main class="main-semantic">
       <!-- Left section -->
-      <section>
+      <section class="main-semantic-left">
         <h1>Title 1</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
@@ -45,7 +45,7 @@
       </section>
 
       <!-- Right section -->
-      <section>
+      <section class="main-semantic-right">
         <h1>Title 2</h1>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum nulla
@@ -54,7 +54,7 @@
         </p>
       </section>
 
-      <article>
+      <article class="semantic-article">
         <!-- Articles under section -->
         <h1 id="S2" class="center">Important Title 1</h1>
         <p class="center">
@@ -83,12 +83,13 @@
     </main>
 
     <!-- Right side div for sidebar nav -->
-    <div>
+    <aside class="nav-semantic-right">
       <p>Right Nav</p>
-    </div>
+   </aside>
     <!-- Bottom footer div for additional info -->
-    <div>
-      <p>Footer Content</p>
-    </div>
+    <footer class="semantic-footer">
+      <p>Footer Content/ Web Fundamentals</p>
+      <p>&copy; Copyright Your Name</p>
+  </footer>
   </body>
 </html>
