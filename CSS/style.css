@@ -359,3 +359,11 @@ li a:hover {
 .morm-form {
   margin: 32px 0;
 }
+
+#favcolor{width: 200px; text-align: center;}
+
+.out-form{margin: 32px;}
+
+#out-name{color: #009;}
+
+#out-movie,#out-color,#outname{margin-left: 16px;}
